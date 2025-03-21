@@ -15,5 +15,8 @@ docker-compose up -d
 # Test the application
 curl http://localhost:3000
 
+# Tag the Docker image
+docker tag calculator-app lehuy222/calculator-app:5.1p
+
 # Push the Docker image to Docker Hub
 docker push lehuy222/calculator-app:5.1p
